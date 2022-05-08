@@ -1,0 +1,7 @@
+LIBRARY "CastleMapInRetsudenMod"
+EXPORTS
+    OnInitialize = OnInitialize @ 1
+    OnBeginPaint =OnBeginPaint @ 2
+    OnUpdatePaint =OnUpdatePaint @ 3
+    OnEndPaint =OnEndPaint @ 4
+    OnFinalize = OnFinalize @ 5

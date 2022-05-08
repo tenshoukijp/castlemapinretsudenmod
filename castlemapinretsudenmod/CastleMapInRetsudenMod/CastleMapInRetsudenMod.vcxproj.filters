@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="城列伝画像関係">
+      <UniqueIdentifier>{493d82ba-e27e-430f-9fc2-d4d91420f25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="城列伝画像関係\ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="城列伝画像関係\リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LS11関係">
+      <UniqueIdentifier>{0dccf7f4-d001-4d95-b30a-e0980dbc5cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11関係\Native">
+      <UniqueIdentifier>{f0a4fd09-a18d-4ac9-84bf-8d4d14a69773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11関係\DotNet">
+      <UniqueIdentifier>{32d29b82-63c3-4add-91ba-37253dddbebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="城列伝実装部">
+      <UniqueIdentifier>{8249ea6f-d753-434d-a3ef-0ba5597a87a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Native\ls11_lib.h">
+      <Filter>LS11関係\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_mod.h">
+      <Filter>LS11関係\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="LS11DotNet.h">
+      <Filter>LS11関係\DotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleMapInRetsudenMod.h">
+      <Filter>城列伝画像関係\ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>城列伝画像関係\リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleMapInRetsudenImplement.h">
+      <Filter>城列伝実装部</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>城列伝画像関係\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>城列伝画像関係\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleMapInRetsudenMod.cpp">
+      <Filter>城列伝画像関係\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decode.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decodePack.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encode.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encodePack.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_getFileData.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_joinData.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_outFileData.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_splitData.cpp">
+      <Filter>LS11関係\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="LS11DotNet.cpp">
+      <Filter>LS11関係\DotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleForm.cpp">
+      <Filter>城列伝実装部</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleHexDataLoad.cpp">
+      <Filter>城列伝実装部</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleHexPictureBox.cpp">
+      <Filter>城列伝実装部</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleTipImageCache.cpp">
+      <Filter>城列伝実装部</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleComboBox.cpp">
+      <Filter>城列伝実装部</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dllmain.def">
+      <Filter>城列伝画像関係\ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ResourceRes.resx">
+      <Filter>城列伝画像関係\リソース ファイル</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CastleMapInRetsudenMod.rc">
+      <Filter>城列伝画像関係\リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
